@@ -7,16 +7,21 @@
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <sat-prep> </sat-prep>
       </div>
+      <div class="md-layout-item md-medium-size-100 md-size-33">
+        <to-do-list> </to-do-list>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import SatPrep from './Projects/SatPrep.vue';
+import ToDoList from './Projects/ToDoList.vue';
 
 export default {
   components: {
-    SatPrep
+    SatPrep,
+    ToDoList
   }
 };
 </script>
