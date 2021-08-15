@@ -5,12 +5,14 @@
     </div>
 
     <md-card-content>
-      <h6 class="category text-gray">Volunteer Work/Project</h6>
-      <h4 class="card-title">SAT | Prep</h4>
+      <h6 class="category text-gray">Call/Chat</h6>
+      <h4 class="card-title">Others</h4>
       <p class="card-description">
-        It's an online doubt-solving platform for SAT Aspirants where you can e-mail your doubts to me, and I will reply to you with a solution and its explanation. I am also providing one-on-one sessions if you request one through e-mail. There's no fee for this so feel free to get your doubts solved.
+          Primary Phone Number: +1(226)-505-9014 <br><br>
+          Secondary Phone Number: +91 8439114275 <br><br>
+          Email Id: n22arora@uwaterloo.ca
       </p>
-      <a href="https://www.thesatprep.com/" target="_blank"><md-button class="md-round md-success">Check Out</md-button></a>
+      <a href="mailto:n22arora@uwaterloo.ca"><md-button class="md-round md-success">Send Email</md-button></a>
     </md-card-content>
   </md-card>
 </template>
@@ -20,7 +22,7 @@ export default {
   props: {
     cardUserImage: {
       type: String,
-      default: require("@/assets/img/faces/satprep.png")
+      default: require("@/assets/img/faces/mailphone.jpg")
     }
   },
   data() {

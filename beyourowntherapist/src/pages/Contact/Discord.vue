@@ -10,7 +10,7 @@
       <p class="card-description">
         Here's another platform where we can connect! <br><br> <b> Discord Username: </b> Navya#7490
       </p>
-      <a href="https://discord.com/channels/@me" target="_blank"><md-button class="md-round md-success">Check Out</md-button></a>
+      <a href="https://discord.com/channels/@me" target="_blank"><md-button class="md-round md-success">Let's Chat</md-button></a>
     </md-card-content>
   </md-card>
 </template>

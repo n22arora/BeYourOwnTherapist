@@ -9,7 +9,7 @@
       <h4 class="card-title">LinkedIn</h4>
       <p class="card-description">Here's another detailed portfolio of mine. Check out my work experiences during previous co-ops, certifications, summary of skills, etc. Feel free to connect with me!
       </p>
-      <a href="https://www.linkedin.com/in/n22arora/" target="_blank"><md-button class="md-round md-success">Check Out</md-button></a>
+      <a href="https://www.linkedin.com/in/n22arora/" target="_blank"><md-button class="md-round md-success">Let's Connect</md-button></a>
     </md-card-content>
   </md-card>
 </template>
