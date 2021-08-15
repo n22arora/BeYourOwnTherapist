@@ -55,7 +55,7 @@ export default {
     },
     imgLogo: {
       type: String,
-      default: require("@/assets/img/vue-logo.png")
+      default: require("@/assets/img/profile_pic3.jpg")
     },
     sidebarItemColor: {
       type: String,
