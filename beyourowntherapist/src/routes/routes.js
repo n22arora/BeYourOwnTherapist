@@ -10,6 +10,7 @@ import Notifications from "@/pages/Notifications.vue";
 import UpgradeToPRO from "@/pages/UpgradeToPRO.vue";
 import AboutMe from "@/pages/AboutMe.vue"
 import Projects from "@/pages/Projects.vue"
+import Contact from "@/pages/Contact.vue"
 
 const routes = [
   {
@@ -24,13 +25,18 @@ const routes = [
       },
       {
         path: "aboutme",
-        name: "About Me",
+        name: "ABOUT ME",
         component: AboutMe
       },
       {
         path: "projects",
-        name: "Projects",
+        name: "PROJECTS",
         component: Projects
+      },
+      {
+        path: "contact",
+        name: "GET IN TOUCH",
+        component: Contact
       },
       {
         path: "user",
