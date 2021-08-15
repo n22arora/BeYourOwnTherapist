@@ -8,6 +8,8 @@ import Icons from "@/pages/Icons.vue";
 import Maps from "@/pages/Maps.vue";
 import Notifications from "@/pages/Notifications.vue";
 import UpgradeToPRO from "@/pages/UpgradeToPRO.vue";
+import AboutMe from "@/pages/AboutMe.vue"
+import Projects from "@/pages/Projects.vue"
 
 const routes = [
   {
@@ -19,6 +21,16 @@ const routes = [
         path: "dashboard",
         name: "Dashboard",
         component: Dashboard
+      },
+      {
+        path: "aboutme",
+        name: "About Me",
+        component: AboutMe
+      },
+      {
+        path: "projects",
+        name: "Projects",
+        component: Projects
       },
       {
         path: "user",
