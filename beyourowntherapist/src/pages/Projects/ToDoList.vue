@@ -5,12 +5,12 @@
     </div>
 
     <md-card-content>
-      <h6 class="category text-gray">Project</h6>
+      <h6 class="category text-gray">Utility</h6>
       <h4 class="card-title">To Do List</h4>
       <p class="card-description">
-        Created user-friendly traditional to-do list to keep a track of daily activities. It has an option to delete each item of the list at a time or all of them with the ‘clear all’ option. <br><br> <b>Select 'To-Do-List' from the menu bar at the top</b>
+        It's an user-friendly traditional to-do list to keep a track of daily activities. It has an option to delete each item of the list at a time or all of them with the ‘clear all’ option. Give it a try by listing out your today's to-dos!
       </p>
-      <a href="https://www.thesatprep.com/"><md-button class="md-round md-success">Check Out</md-button></a>
+      <a href="https://www.thesatprep.com/todoindex.html" target="_blank"><md-button class="md-round md-success">Check Out</md-button></a>
     </md-card-content>
   </md-card>
 </template>
