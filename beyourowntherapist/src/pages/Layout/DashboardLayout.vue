@@ -17,11 +17,7 @@
       </sidebar-link>
       <sidebar-link to="/webprojects">
         <md-icon>code</md-icon>
-        <p> Web Projects</p>
-      </sidebar-link>
-      <sidebar-link to="https://github.com/n22arora" target="_blank">
-        <md-icon>code</md-icon>
-        <p> Other Projects</p>
+        <p>Projects</p>
       </sidebar-link>
       <sidebar-link to="/contact">
         <md-icon>contact_page</md-icon>
