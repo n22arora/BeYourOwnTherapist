@@ -29,7 +29,7 @@ const routes = [
         component: AboutMe
       },
       {
-        path: "projects",
+        path: "webprojects",
         name: "PROJECTS",
         component: Projects
       },

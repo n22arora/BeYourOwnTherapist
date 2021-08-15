@@ -15,9 +15,13 @@
         <md-icon>person</md-icon>
         <p>About Me</p>
       </sidebar-link>
-      <sidebar-link to="/projects">
+      <sidebar-link to="/webprojects">
         <md-icon>code</md-icon>
-        <p>Projects</p>
+        <p> Web Projects</p>
+      </sidebar-link>
+      <sidebar-link to="https://github.com/n22arora" target="_blank">
+        <md-icon>code</md-icon>
+        <p> Other Projects</p>
       </sidebar-link>
       <sidebar-link to="/contact">
         <md-icon>contact_page</md-icon>
