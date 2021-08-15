@@ -1,105 +1,65 @@
 <template>
-  <form>
+  <div>
     <md-card>
-      <md-card-header :data-background-color="dataBackgroundColor">
-        <h4 class="title">Edit Profile</h4>
-        <p class="category">Complete your profile</p>
+        <md-card-header :data-background-color="dataBackgroundColor">
+        <h4 class="title">Work Experience</h4>
+        <!-- <p class="category">Complete your profile</p> -->
       </md-card-header>
+    <md-table>
+      <!-- <md-table-toolbar>
+        <h1 class="md-title">Users</h1>
+      </md-table-toolbar> -->
+      <br>
+      <md-table-row class="padding-header">
+        <!-- <md-table-head md-numeric>ID</md-table-head> -->
+        <md-table-head>Name</md-table-head>
+        <md-table-head>Email</md-table-head>
+        <md-table-head>Gender</md-table-head>
+        <md-table-head>Job Title</md-table-head>
+      </md-table-row>
 
-      <md-card-content>
-        <div class="md-layout">
-          <div class="md-layout-item md-small-size-100 md-size-33">
-            <md-field>
-              <label>Company (disabled)</label>
-              <md-input v-model="disabled" disabled></md-input>
-            </md-field>
-          </div>
-          <div class="md-layout-item md-small-size-100 md-size-33">
-            <md-field>
-              <label>User Name</label>
-              <md-input v-model="username" type="text"></md-input>
-            </md-field>
-          </div>
-          <div class="md-layout-item md-small-size-100 md-size-33">
-            <md-field>
-              <label>Email Address</label>
-              <md-input v-model="emailadress" type="email"></md-input>
-            </md-field>
-          </div>
-          <div class="md-layout-item md-small-size-100 md-size-50">
-            <md-field>
-              <label>First Name</label>
-              <md-input v-model="firstname" type="text"></md-input>
-            </md-field>
-          </div>
-          <div class="md-layout-item md-small-size-100 md-size-50">
-            <md-field>
-              <label>Last Name</label>
-              <md-input v-model="lastname" type="text"></md-input>
-            </md-field>
-          </div>
-          <div class="md-layout-item md-small-size-100 md-size-100">
-            <md-field>
-              <label>Adress</label>
-              <md-input v-model="address" type="text"></md-input>
-            </md-field>
-          </div>
-          <div class="md-layout-item md-small-size-100 md-size-33">
-            <md-field>
-              <label>City</label>
-              <md-input v-model="city" type="text"></md-input>
-            </md-field>
-          </div>
-          <div class="md-layout-item md-small-size-100 md-size-33">
-            <md-field>
-              <label>Country</label>
-              <md-input v-model="country" type="text"></md-input>
-            </md-field>
-          </div>
-          <div class="md-layout-item md-small-size-100 md-size-33">
-            <md-field>
-              <label>Postal Code</label>
-              <md-input v-model="code" type="number"></md-input>
-            </md-field>
-          </div>
-          <div class="md-layout-item md-size-100">
-            <md-field maxlength="5">
-              <label>About Me</label>
-              <md-textarea v-model="aboutme"></md-textarea>
-            </md-field>
-          </div>
-          <div class="md-layout-item md-size-100 text-right">
-            <md-button class="md-raised md-success">Update Profile</md-button>
-          </div>
-        </div>
-      </md-card-content>
+      <md-table-row>
+        <!-- <md-table-cell md-numeric>1</md-table-cell> -->
+        <md-table-cell>Shawna Dubbin</md-table-cell>
+        <md-table-cell>sdubbin0@geocities.com</md-table-cell>
+        <md-table-cell>Male</md-table-cell>
+        <md-table-cell>Assistant Media Planner</md-table-cell>
+      </md-table-row>
+
+      <md-table-row>
+        <!-- <md-table-cell md-numeric>2</md-table-cell> -->
+        <md-table-cell>Odette Demageard</md-table-cell>
+        <md-table-cell>odemageard1@spotify.com</md-table-cell>
+        <md-table-cell>Female</md-table-cell>
+        <md-table-cell>Account Coordinator</md-table-cell>
+      </md-table-row>
+
+      <md-table-row>
+        <!-- <md-table-cell md-numeric>3</md-table-cell> -->
+        <md-table-cell>Vera Taleworth</md-table-cell>
+        <md-table-cell>vtaleworth2@google.ca</md-table-cell>
+        <md-table-cell>Male</md-table-cell>
+        <md-table-cell>Community Outreach Specialist</md-table-cell>
+      </md-table-row>
+    </md-table>
     </md-card>
-  </form>
+  </div>
 </template>
+
 <script>
-export default {
-  name: "edit-profile-form",
-  props: {
+  export default {
+    name: 'TableCard',
+    props: {
     dataBackgroundColor: {
       type: String,
       default: ""
     }
-  },
-  data() {
-    return {
-      username: null,
-      disabled: null,
-      emailadress: null,
-      lastname: null,
-      firstname: null,
-      address: null,
-      city: null,
-      country: null,
-      code: null,
-      aboutme:
-        "Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo."
-    };
+    }
   }
-};
 </script>
-<style></style>
+
+<style>
+md-table-row{
+    margin-left: 20px;
+}
+</style>

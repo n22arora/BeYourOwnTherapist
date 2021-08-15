@@ -2,10 +2,13 @@
   <div class="content">
     <div class="md-layout">
       <div class="md-layout-item md-medium-size-100 md-size-66">
-        <work-experience data-background-color="green"> </work-experience>
+        <skills data-background-color="green"> </skills>
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <profile-card></profile-card>
+      </div>
+      <div class="md-layout-item md-medium-size-100 md-size-100">
+        <work-experience></work-experience>
       </div>
     </div>
   </div>
@@ -13,13 +16,15 @@
 
 <script>
 // import { EditProfileForm, UserCard } from "@/pages";
-import WorkExperience from './AboutMe/WorkExperience.vue';
+import Skills from './AboutMe/Skills.vue';
 import ProfileCard from './AboutMe/ProfileCard.vue';
+import WorkExperience from './AboutMe/WorkExperience.vue';
 
 export default {
   components: {
-    WorkExperience,
-    ProfileCard
+    Skills,
+    ProfileCard,
+    WorkExperience
   }
 };
 </script>
