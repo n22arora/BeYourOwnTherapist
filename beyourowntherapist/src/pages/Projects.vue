@@ -9,7 +9,6 @@
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <to-do-list> </to-do-list>
-        <therapist> </therapist>
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <tic-tac-toe> </tic-tac-toe>
@@ -22,14 +21,12 @@
 import SatPrep from './Projects/SatPrep.vue';
 import TicTacToe from './Projects/TicTacToe.vue';
 import ToDoList from './Projects/ToDoList.vue';
-import Therapist from './Projects/Therapist.vue';
 
 export default {
   components: {
     SatPrep,
     ToDoList,
-    TicTacToe,
-    Therapist
+    TicTacToe
   }
 };
 </script>
