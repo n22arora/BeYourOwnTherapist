@@ -7,9 +7,21 @@
       :sidebar-background-image="sidebarBackgroundImage"
     >
       <mobile-menu slot="content"></mobile-menu>
-      <sidebar-link to="/dashboard">
+      <!-- <sidebar-link to="/dashboard">
         <md-icon>dashboard</md-icon>
         <p>Dashboard</p>
+      </sidebar-link> -->
+      <sidebar-link to="/aboutme">
+        <md-icon>person</md-icon>
+        <p>About Me</p>
+      </sidebar-link>
+      <sidebar-link to="/projects">
+        <md-icon>code</md-icon>
+        <p>Projects</p>
+      </sidebar-link>
+      <sidebar-link to="/contact">
+        <md-icon>contact_page</md-icon>
+        <p>Contact</p>
       </sidebar-link>
       <sidebar-link to="/user">
         <md-icon>person</md-icon>
