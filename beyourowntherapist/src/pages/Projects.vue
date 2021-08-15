@@ -9,6 +9,7 @@
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <to-do-list> </to-do-list>
+        <git-hub></git-hub>
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <tic-tac-toe> </tic-tac-toe>
@@ -18,6 +19,7 @@
 </template>
 
 <script>
+import GitHub from './Projects/GitHub.vue';
 import SatPrep from './Projects/SatPrep.vue';
 import TicTacToe from './Projects/TicTacToe.vue';
 import ToDoList from './Projects/ToDoList.vue';
@@ -26,7 +28,8 @@ export default {
   components: {
     SatPrep,
     ToDoList,
-    TicTacToe
+    TicTacToe,
+    GitHub
   }
 };
 </script>

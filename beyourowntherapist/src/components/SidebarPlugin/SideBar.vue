@@ -55,7 +55,7 @@ export default {
     },
     imgLogo: {
       type: String,
-      default: require("@/assets/img/profile_pic3.jpg")
+      default: require("@/assets/img/my_favicon.png")
     },
     sidebarItemColor: {
       type: String,
