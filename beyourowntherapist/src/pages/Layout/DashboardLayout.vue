@@ -15,9 +15,13 @@
         <md-icon>person</md-icon>
         <p>About Me</p>
       </sidebar-link>
-      <sidebar-link to="/webprojects">
+      <sidebar-link to="/projects">
         <md-icon>code</md-icon>
         <p>Projects</p>
+      </sidebar-link>
+      <sidebar-link to="/resume">
+        <md-icon>content_paste</md-icon>
+        <p>Resume</p>
       </sidebar-link>
       <sidebar-link to="/contact">
         <md-icon>contact_page</md-icon>

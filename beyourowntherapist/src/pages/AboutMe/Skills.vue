@@ -23,6 +23,8 @@
                       <li>Quick Self-Learner</li>
                       <li>Meet deadlines</li>
                       <li>Effective Communication</li>
+                      <li>Hard Worker</li>
+                      <li>Time Management</li>
                   </ul>
               </p>
           </div>
