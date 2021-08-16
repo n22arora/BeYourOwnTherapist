@@ -7,7 +7,7 @@
             <h4 class="title">Work Experience</h4>
           </md-card-header>
           <md-card-content>
-            <simple-table table-header-color="green"></simple-table>
+            <other-experience-table table-header-color="green"></other-experience-table>
           </md-card-content>
         </md-card>
       </div>
@@ -16,13 +16,11 @@
 </template>
 
 <script>
-import {
-  SimpleTable
-} from '@/components'
+import OtherExperienceTable from '../../components/Tables/OtherExperienceTable.vue'
 
 export default{
   components: {
-    SimpleTable
+    OtherExperienceTable
   }
 }
 </script>
