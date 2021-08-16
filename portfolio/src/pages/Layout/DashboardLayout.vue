@@ -19,17 +19,17 @@
         <md-icon>code</md-icon>
         <p>Projects</p>
       </sidebar-link>
-      <sidebar-link to="/resume">
+      <sidebar-link to="/contact">
+        <md-icon>contact_page</md-icon>
+        <p>Contact</p>
+      </sidebar-link>
+      <!-- <sidebar-link to="/resume">
         <md-icon>content_paste</md-icon>
         <p>Resume</p>
       </sidebar-link>
       <sidebar-link to="/beyourowntherapist">
         <md-icon>content_paste</md-icon>
         <p>Be Your Own Therapist</p>
-      </sidebar-link>
-      <sidebar-link to="/contact">
-        <md-icon>contact_page</md-icon>
-        <p>Contact</p>
       </sidebar-link>
       <sidebar-link to="/user">
         <md-icon>person</md-icon>
@@ -54,7 +54,7 @@
       <sidebar-link to="/notifications">
         <md-icon>notifications</md-icon>
         <p>Notifications</p>
-      </sidebar-link>
+      </sidebar-link> -->
       <!-- <sidebar-link to="/upgrade" class="active-pro">
         <md-icon>unarchive</md-icon>
         <p>Upgrade to PRO</p>
