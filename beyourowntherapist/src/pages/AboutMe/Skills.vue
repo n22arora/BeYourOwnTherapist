@@ -15,7 +15,7 @@
               <h5>Tools/Frameworks</h5>
               <p class="category">Vue.js, TypeScript, Bootstrap 3/4, PostgreSQL, Jira, Jenkins, Postman, Tosca Commander, Git, Netlify, REST API, Netlify, GitHub</p>
           </div>
-          <div class="md-layout-item md-small-size-100 md-size-50">
+          <div class="md-layout-item md-small-size-100 md-size-33">
               <h5>Other Skills</h5>
               <p class="category">
                   <ul>
@@ -26,7 +26,7 @@
                   </ul>
               </p>
           </div>
-          <div class="md-layout-item md-small-size-100 md-size-50">
+          <div class="md-layout-item md-small-size-100 md-size-66">
               <h5>Certifications</h5>
               <p class="category">
                   <ul>
