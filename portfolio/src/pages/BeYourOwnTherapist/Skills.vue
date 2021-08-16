@@ -8,13 +8,24 @@
       <md-card-content>
         <div class="md-layout">
           <div class="md-layout-item md-small-size-100 md-size-100">
-              <h5 class="category" align="center">This project focuses on maintaining good mental health for those who are going through tough phases in their life. Sometimes, the best way to deal with a tough situation is to evaluate it in pieces. By evaluate, I mean break it down into pieces and then deal with it. It looks so cumbersome all together but when you take one piece at a time, you come out of that situation really quick!</h5>
+              <h5 class="category" align="center">This project focuses on maintaining good mental health for those who are going through tough phases in their life. Sometimes, the best way to deal with a tough situation is to evaluate it in pieces. By evaluate, I mean break it down into pieces and then deal with it. It looks so cumbersome all together but when you take one piece at a time, you come out of that situation really quick!</h5><br>
+              <!-- <h5 class="category" align="center">There is a super amazing flow chart that you should take a look into</h5> -->
+          </div>
+          <div class="md-layout-item md-small-size-100 md-size-50" >
+                <h5 class="category" align="center">There is a super amazing flow chart that you should take a look into:</h5>
+                <img class="img" :src="cardUserImage" />
+          </div>
+          <div class="md-layout-item md-small-size-100 md-size-50" >
+                <h5 class="category" align="center">I am also preparing a questionnaire including some general questions that may help you break your problems down into separate pieces:</h5>
+                <div class="md-layout-item md-small-size-100 md-size-100" align="center"><br><br>
+                <a href="https://www.thesatprep.com/" target="_blank"><md-button class="md-round md-success">Check Out</md-button></a>
+                </div>
           </div>
           <!-- <div class="md-layout-item md-small-size-100 md-size-66">
               <h5>Tools/Frameworks</h5>
               <p class="category">Vue.js, TypeScript, Bootstrap 3/4, PostgreSQL, Jira, Jenkins, Postman, Tosca Commander, Git, Netlify, REST API, Netlify, GitHub</p>
           </div> -->
-          <div class="md-layout-item md-small-size-100 md-size-100">
+          <!-- <div class="md-layout-item md-small-size-100 md-size-100">
               <h5>Other Skills</h5>
               <p class="category">
                   <ul>
@@ -26,7 +37,7 @@
                       <li>Time Management</li>
                   </ul>
               </p>
-          </div>
+          </div> -->
           <!-- <div class="md-layout-item md-small-size-100 md-size-66">
               <h5>Certifications</h5>
               <p class="category">
@@ -90,6 +101,10 @@ export default {
     dataBackgroundColor: {
       type: String,
       default: ""
+    },
+    cardUserImage: {
+      type: String,
+      default: require("@/assets/img/flowchartproject.png")
     }
   },
   data() {
@@ -99,4 +114,8 @@ export default {
 };
 </script>
 <style>
+.size{
+  width: 100px;
+  height: 100px;
+}
 </style>
