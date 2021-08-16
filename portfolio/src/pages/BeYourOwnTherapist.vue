@@ -5,7 +5,7 @@
         <profile-card></profile-card>
       </div> -->
       <div class="md-layout-item md-medium-size-100 md-size-100">
-        <skills data-background-color="green"></skills>
+        <welcome-page data-background-color="green"></welcome-page>
       </div>
       <!-- <div class="md-layout-item md-medium-size-100 md-size-100">
         <work-experience></work-experience>
@@ -18,11 +18,11 @@
 </template>
 
 <script>
-import Skills from './BeYourOwnTherapist/Skills.vue';
+import WelcomePage from './BeYourOwnTherapist/WelcomePage.vue';
 
 export default {
   components: {
-    Skills
+    WelcomePage
   }
 };
 </script>

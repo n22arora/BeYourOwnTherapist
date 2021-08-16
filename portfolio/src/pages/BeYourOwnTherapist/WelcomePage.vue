@@ -16,9 +16,9 @@
                 <img class="img" :src="cardUserImage" />
           </div>
           <div class="md-layout-item md-small-size-100 md-size-50" >
-                <h5 class="category" align="center">I am also preparing a questionnaire including some general questions that may help you break your problems down into separate pieces:</h5>
+                <h5 class="category" align="center"><b>Section in progress </b> <br>I am also preparing a questionnaire including some general questions that may help you break your problems down into separate pieces:</h5>
                 <div class="md-layout-item md-small-size-100 md-size-100" align="center"><br><br>
-                <a href="https://www.thesatprep.com/" target="_blank"><md-button class="md-round md-success">Check Out</md-button></a>
+                <a href="https://www.thesatprep.com/" target="_blank"><md-button class="md-round md-success" :disabled="true">Check Out</md-button></a>
                 </div>
           </div>
           <!-- <div class="md-layout-item md-small-size-100 md-size-66">
