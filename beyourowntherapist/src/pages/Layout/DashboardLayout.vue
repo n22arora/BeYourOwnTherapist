@@ -7,10 +7,10 @@
       :sidebar-background-image="sidebarBackgroundImage"
     >
       <mobile-menu slot="content"></mobile-menu>
-      <sidebar-link to="/dashboard">
+      <!-- <sidebar-link to="/dashboard">
         <md-icon>dashboard</md-icon>
         <p>Dashboard</p>
-      </sidebar-link>
+      </sidebar-link> -->
       <sidebar-link to="/aboutme">
         <md-icon>person</md-icon>
         <p>About Me</p>
@@ -23,7 +23,7 @@
         <md-icon>contact_page</md-icon>
         <p>Contact</p>
       </sidebar-link>
-      <sidebar-link to="/user">
+      <!-- <sidebar-link to="/user">
         <md-icon>person</md-icon>
         <p>User Profile</p>
       </sidebar-link>
@@ -46,7 +46,7 @@
       <sidebar-link to="/notifications">
         <md-icon>notifications</md-icon>
         <p>Notifications</p>
-      </sidebar-link>
+      </sidebar-link> -->
       <!-- <sidebar-link to="/upgrade" class="active-pro">
         <md-icon>unarchive</md-icon>
         <p>Upgrade to PRO</p>
