@@ -14,7 +14,7 @@
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <tic-tac-toe> </tic-tac-toe>
-        <leet-code></leet-code>
+        <!-- <leet-code></leet-code> -->
       </div>
     </div>
   </div>
