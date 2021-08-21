@@ -12,6 +12,7 @@ import AboutMe from "@/pages/AboutMe.vue";
 import Projects from "@/pages/Projects.vue";
 import Contact from "@/pages/Contact.vue";
 import Resume from "@/pages/Resume.vue";
+import BeYourOwnTherapist from "@/pages/BeYourOwnTherapist.vue";
 
 const routes = [
   {
@@ -23,6 +24,11 @@ const routes = [
         path: "dashboard",
         name: "Dashboard",
         component: Dashboard
+      },
+      {
+        path: "beyourowntherapist",
+        name: "BE YOUR OWN THERAPIST",
+        component: BeYourOwnTherapist
       },
       {
         path: "aboutme",
