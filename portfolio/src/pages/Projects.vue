@@ -6,6 +6,7 @@
       </div> -->
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <sat-prep> </sat-prep>
+        <hacker-rank></hacker-rank>
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <to-do-list> </to-do-list>
@@ -20,6 +21,7 @@
 
 <script>
 import GitHub from './Projects/GitHub.vue';
+import HackerRank from './Projects/HackerRank.vue';
 import SatPrep from './Projects/SatPrep.vue';
 import TicTacToe from './Projects/TicTacToe.vue';
 import ToDoList from './Projects/ToDoList.vue';
@@ -29,7 +31,8 @@ export default {
     SatPrep,
     ToDoList,
     TicTacToe,
-    GitHub
+    GitHub,
+    HackerRank
   }
 };
 </script>
