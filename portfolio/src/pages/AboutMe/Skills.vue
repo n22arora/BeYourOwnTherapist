@@ -13,7 +13,7 @@
           </div>
           <div class="md-layout-item md-small-size-100 md-size-66">
               <h5>Tools/Frameworks</h5>
-              <p class="category">Vue.js, TypeScript, Bootstrap 3/4, PostgreSQL, Jira, Jenkins, Postman, Tosca Commander, Git, Netlify, REST API, Netlify, GitHub</p>
+              <p class="category">Vue.js, TypeScript, Bootstrap 3/4, PostgreSQL, Jira, Jenkins, Postman, Tosca Commander, Git, Netlify, REST API, GitHub</p>
           </div>
           <div class="md-layout-item md-small-size-100 md-size-33">
               <h5>Other Skills</h5>
