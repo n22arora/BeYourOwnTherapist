@@ -5,6 +5,7 @@
         <edit-profile-form data-background-color="green"> </edit-profile-form>
       </div> -->
       <div class="md-layout-item md-medium-size-100 md-size-33">
+        <vchat> </vchat>
         <sat-prep> </sat-prep>
         <byot></byot>
       </div>
@@ -22,6 +23,7 @@
 </template>
 
 <script>
+import Vchat from './Projects/Vchat.vue'
 import Byot from './Projects/Byot.vue';
 import GitHub from './Projects/GitHub.vue';
 import HackerRank from './Projects/HackerRank.vue';
@@ -37,7 +39,7 @@ export default {
     TicTacToe,
     GitHub,
     HackerRank,
-    // LeetCode
+    Vchat,
     Byot
   }
 };
