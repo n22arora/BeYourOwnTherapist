@@ -6,6 +6,7 @@
       </div> -->
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <sat-prep> </sat-prep>
+        <byot></byot>
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <to-do-list> </to-do-list>
@@ -13,13 +14,18 @@
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <tic-tac-toe> </tic-tac-toe>
+        <hacker-rank></hacker-rank>
+        <!-- <leet-code></leet-code> -->
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Byot from './Projects/Byot.vue';
 import GitHub from './Projects/GitHub.vue';
+import HackerRank from './Projects/HackerRank.vue';
+// import LeetCode from './Projects/LeetCode.vue';
 import SatPrep from './Projects/SatPrep.vue';
 import TicTacToe from './Projects/TicTacToe.vue';
 import ToDoList from './Projects/ToDoList.vue';
@@ -29,7 +35,10 @@ export default {
     SatPrep,
     ToDoList,
     TicTacToe,
-    GitHub
+    GitHub,
+    HackerRank,
+    // LeetCode
+    Byot
   }
 };
 </script>

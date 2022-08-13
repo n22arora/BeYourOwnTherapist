@@ -19,15 +19,19 @@
         <md-icon>code</md-icon>
         <p>Projects</p>
       </sidebar-link>
-      <!-- <sidebar-link to="/resume">
-        <md-icon>content_paste</md-icon>
-        <p>Resume</p>
-      </sidebar-link> -->
       <sidebar-link to="/contact">
         <md-icon>contact_page</md-icon>
         <p>Contact</p>
       </sidebar-link>
-      <!-- <sidebar-link to="/user">
+      <!-- <sidebar-link to="/resume">
+        <md-icon>content_paste</md-icon>
+        <p>Resume</p>
+      </sidebar-link>
+      <sidebar-link to="/beyourowntherapist">
+        <md-icon>content_paste</md-icon>
+        <p>Be Your Own Therapist</p>
+      </sidebar-link>
+      <sidebar-link to="/user">
         <md-icon>person</md-icon>
         <p>User Profile</p>
       </sidebar-link>
@@ -68,7 +72,7 @@
 
       <dashboard-content> </dashboard-content>
 
-      <content-footer v-if="!$route.meta.hideFooter"></content-footer>
+      <!-- <content-footer v-if="!$route.meta.hideFooter"></content-footer> -->
     </div>
   </div>
 </template>
