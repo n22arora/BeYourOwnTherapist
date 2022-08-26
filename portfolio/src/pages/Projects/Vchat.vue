@@ -5,9 +5,9 @@
     </div>
 
     <md-card-content>
-      <h6 class="category text-gray">Mental Health</h6>
-      <h4 class="card-title">Be Your Own Therapist</h4>
-      <p class="card-description">This project focuses on mental health awareness. It is something really close to me. This project is still under progress but you can make use of the items that have been added so far. There is much more to come!
+      <h6 class="category text-gray">Utility</h6>
+      <h4 class="card-title">VChat</h4>
+      <p class="card-description">It's an online texting application made using Stream API. It's pretty similar to discord/slack where you can DM or create channels for different purposes. It's deployment is under progress. In the meantime, you can checkout its code on my GitHub profile.
       </p>
       <router-link to="/beyourowntherapist" target="_blank"><md-button class="md-round md-success">Check Out</md-button></router-link>
     </md-card-content>
