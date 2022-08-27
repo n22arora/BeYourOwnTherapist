@@ -40,6 +40,12 @@ export default {
       users: [
         {
           position: "Software Developer",
+          period: "January 2022 - May 2022",
+          company: "OpenText Inc",
+          location: "Waterloo, ON"
+        },
+        {
+          position: "Software Developer",
           period: "May 2021 - August 2021",
           company: "Weavik Inc",
           location: "Waterloo, ON"
