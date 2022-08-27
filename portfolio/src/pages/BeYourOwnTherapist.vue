@@ -5,7 +5,7 @@
         <profile-card></profile-card>
       </div> -->
       <div class="md-layout-item md-medium-size-100 md-size-100">
-        <welcome-page data-background-color="green"></welcome-page>
+        <welcome-page data-background-color="green" />
       </div>
       <!-- <div class="md-layout-item md-medium-size-100 md-size-100">
         <work-experience></work-experience>

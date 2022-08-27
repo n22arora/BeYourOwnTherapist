@@ -5,13 +5,13 @@
         <edit-profile-form data-background-color="green"> </edit-profile-form>
       </div> -->
       <div class="md-layout-item md-medium-size-100 md-size-33">
-        <linkedin></linkedin>
+        <linkedin />
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
-          <discord> </discord>
+        <discord />
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
-        <other> </other>
+        <other />
       </div>
     </div>
   </div>

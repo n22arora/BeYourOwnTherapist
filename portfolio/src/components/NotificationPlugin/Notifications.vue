@@ -11,8 +11,7 @@
         :vertical-align="notification.verticalAlign"
         :horizontal-align="notification.horizontalAlign"
         @on-close="removeNotification"
-      >
-      </notification>
+      />
     </transition-group>
   </div>
 </template>

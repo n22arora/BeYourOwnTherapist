@@ -23,8 +23,8 @@ const SidebarPlugin = {
         return this.$root.sidebarStore;
       }
     });
-    Vue.component("side-bar", Sidebar);
-    Vue.component("sidebar-link", SidebarLink);
+    Vue.component("SideBar", Sidebar);
+    Vue.component("SidebarLink", SidebarLink);
   }
 };
 

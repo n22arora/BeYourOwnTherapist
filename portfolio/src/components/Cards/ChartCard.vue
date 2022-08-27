@@ -4,21 +4,24 @@
       class="card-chart"
       :data-background-color="dataBackgroundColor"
     >
-      <div :id="chartId" class="ct-chart"></div>
+      <div
+        :id="chartId"
+        class="ct-chart"
+      />
     </md-card-header>
 
     <md-card-content>
-      <slot name="content"></slot>
+      <slot name="content" />
     </md-card-content>
 
     <md-card-actions md-alignment="left">
-      <slot name="footer"></slot>
+      <slot name="footer" />
     </md-card-actions>
   </md-card>
 </template>
 <script>
 export default {
-  name: "chart-card",
+  name: "ChartCard",
   props: {
     footerText: {
       type: String,
@@ -63,6 +66,15 @@ export default {
       chartId: "no-id"
     };
   },
+  mounted() {
+    this.updateChartId();
+    import("chartist").then(Chartist => {
+      let ChartistLib = Chartist.default || Chartist;
+      this.$nextTick(() => {
+        this.initChart(ChartistLib);
+      });
+    });
+  },
   methods: {
     /***
      * Initializes the chart by merging the chart options sent via props and the default chart options
@@ -82,15 +94,6 @@ export default {
     getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-  },
-  mounted() {
-    this.updateChartId();
-    import("chartist").then(Chartist => {
-      let ChartistLib = Chartist.default || Chartist;
-      this.$nextTick(() => {
-        this.initChart(ChartistLib);
-      });
-    });
   }
 };
 </script>

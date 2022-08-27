@@ -1,11 +1,22 @@
 <template>
-  <div class="fixed-plugin" v-click-outside="closeDropDown">
-    <div class="dropdown show-dropdown" :class="{ show: isOpen }">
+  <div
+    v-click-outside="closeDropDown"
+    class="fixed-plugin"
+  >
+    <div
+      class="dropdown show-dropdown"
+      :class="{ show: isOpen }"
+    >
       <!-- <a data-toggle="dropdown">
         <i class="fa fa-cog fa-2x" @click="toggleDropDown"> </i>
       </a> -->
-      <ul class="dropdown-menu" :class="{ show: isOpen }">
-        <li class="header-title">Sidebar Filters</li>
+      <ul
+        class="dropdown-menu"
+        :class="{ show: isOpen }"
+      >
+        <li class="header-title">
+          Sidebar Filters
+        </li>
         <li class="adjustments-line text-center">
           <span
             v-for="item in sidebarColors"
@@ -14,10 +25,11 @@
             :class="[`badge-${item.color}`, { active: item.active }]"
             :data-color="item.color"
             @click="changeSidebarBackground(item)"
-          >
-          </span>
+          />
         </li>
-        <li class="header-title">Images</li>
+        <li class="header-title">
+          Images
+        </li>
         <li
           v-for="item in sidebarImages"
           :key="item.image"
@@ -25,7 +37,10 @@
           @click="changeSidebarImage(item)"
         >
           <a class="img-holder switch-trigger">
-            <img :src="item.image" alt="" />
+            <img
+              :src="item.image"
+              alt=""
+            >
           </a>
         </li>
 
@@ -35,8 +50,9 @@
               class="md-success md-block"
               :href="freeUrl"
               target="_blank"
-              >Free Download</md-button
             >
+              Free Download
+            </md-button>
           </div>
         </li>
 
@@ -46,8 +62,9 @@
               class="md-block md-primary"
               :href="documentationLink"
               target="_blank"
-              >Documentation</md-button
             >
+              Documentation
+            </md-button>
           </div>
         </li>
 
@@ -68,13 +85,13 @@
                 network="facebook"
                 class="md-button md-round md-just-icon md-facebook"
               >
-                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-facebook-f" />
               </network>
               <network
                 network="twitter"
                 class="md-button md-round md-just-icon md-twitter"
               >
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-twitter" />
               </network>
             </div>
           </social-sharing>
@@ -83,7 +100,7 @@
           <gh-btns-star
             slug="creativetimofficial/vue-material-dashboard"
             show-count
-          ></gh-btns-star>
+          />
         </li>
       </ul>
     </div>

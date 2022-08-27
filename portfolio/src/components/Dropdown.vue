@@ -1,9 +1,9 @@
 <template>
   <div
+    v-click-outside="closeDropDown"
     class="dropdown"
     :class="{ open: isOpen }"
     @click="toggleDropDown"
-    v-click-outside="closeDropDown"
   >
     <slot name="title">
       <a
@@ -11,19 +11,19 @@
         data-toggle="dropdown"
         href="javascript:void(0)"
       >
-        <i :class="icon"></i>
+        <i :class="icon" />
         <p class="notification">
           {{ title }}
-          <b class="caret"></b>
+          <b class="caret" />
         </p>
       </a>
     </slot>
-    <slot></slot>
+    <slot />
   </div>
 </template>
 <script>
 export default {
-  name: "drop-down",
+  name: "DropDown",
   props: {
     title: String,
     icon: String

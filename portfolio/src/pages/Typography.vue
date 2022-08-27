@@ -4,8 +4,12 @@
       <div class="md-layout-item">
         <md-card>
           <md-card-header data-background-color="green">
-            <h4 class="title">Material Dashboard Heading</h4>
-            <p class="category">Created using Roboto Font Family</p>
+            <h4 class="title">
+              Material Dashboard Heading
+            </h4>
+            <p class="category">
+              Created using Roboto Font Family
+            </p>
           </md-card-header>
           <md-card-content>
             <div id="typography">
@@ -120,7 +124,7 @@
                   <h2>
                     <span class="tim-note">Small Tag</span>
                     Header with small subtitle
-                    <br />
+                    <br>
                     <small>Use "small" tag for the headers</small>
                   </h2>
                 </div>

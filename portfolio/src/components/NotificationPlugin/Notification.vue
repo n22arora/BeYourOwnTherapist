@@ -1,12 +1,12 @@
 <template>
   <div
-    @click="close()"
     data-notify="container"
     class="alert open alert-with-icon"
     role="alert"
     :class="[verticalAlign, horizontalAlign, alertType]"
     :style="customPosition"
     data-notify-position="top-center"
+    @click="close()"
   >
     <button
       type="button"
@@ -17,13 +17,19 @@
     >
       ×
     </button>
-    <i data-notify="icon" class="material-icons">{{ icon }}</i>
-    <span data-notify="message" v-html="message"></span>
+    <i
+      data-notify="icon"
+      class="material-icons"
+    >{{ icon }}</i>
+    <span
+      data-notify="message"
+      v-html="message"
+    />
   </div>
 </template>
 <script>
 export default {
-  name: "notification",
+  name: "Notification",
   props: {
     message: String,
     icon: String,
@@ -80,15 +86,15 @@ export default {
       return styles;
     }
   },
-  methods: {
-    close() {
-      this.$emit("on-close", this.timestamp);
-    }
-  },
   mounted() {
     this.elmHeight = this.$el.clientHeight;
     if (this.timeout) {
       setTimeout(this.close, this.timeout);
+    }
+  },
+  methods: {
+    close() {
+      this.$emit("on-close", this.timestamp);
     }
   }
 };

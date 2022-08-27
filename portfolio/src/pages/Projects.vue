@@ -5,17 +5,16 @@
         <edit-profile-form data-background-color="green"> </edit-profile-form>
       </div> -->
       <div class="md-layout-item md-medium-size-100 md-size-33">
-        <vchat> </vchat>
-        <sat-prep> </sat-prep>
-        
+        <vchat />
+        <sat-prep />
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
-        <to-do-list> </to-do-list>
-        <git-hub></git-hub>
+        <to-do-list />
+        <git-hub />
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
-        <tic-tac-toe> </tic-tac-toe>
-        <byot></byot>
+        <tic-tac-toe />
+        <byot />
         <!-- <hacker-rank></hacker-rank> -->
         <!-- <leet-code></leet-code> -->
       </div>

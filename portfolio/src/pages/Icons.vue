@@ -4,12 +4,15 @@
       <div class="md-layout-item">
         <md-card class="md-card-plain">
           <md-card-header data-background-color="green">
-            <h4 class="title">Material Design Icons</h4>
+            <h4 class="title">
+              Material Design Icons
+            </h4>
             <p class="category">
               Handcrafted by our friends from
-              <a target="_blank" href="https://design.google.com/icons/"
-                >Google</a
-              >
+              <a
+                target="_blank"
+                href="https://design.google.com/icons/"
+              >Google</a>
             </p>
           </md-card-header>
 
@@ -24,9 +27,10 @@
                 The icons are visible on Desktop mode inside an iframe. Since
                 the iframe is not working on Mobile and Tablets please visit the
                 icons on their original page on Google. Check the
-                <a href="https://design.google.com/icons/" target="_blank"
-                  >Material Icons</a
-                >
+                <a
+                  href="https://design.google.com/icons/"
+                  target="_blank"
+                >Material Icons</a>
               </h5>
             </div>
           </md-card-content>
