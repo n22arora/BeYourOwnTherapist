@@ -5,16 +5,18 @@
         <edit-profile-form data-background-color="green"> </edit-profile-form>
       </div> -->
       <div class="md-layout-item md-medium-size-100 md-size-33">
+        <news-a-i />
         <vchat />
-        <sat-prep />
+        <byot />
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
+        <binge-today/>
         <to-do-list />
         <git-hub />
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
+        <sat-prep />
         <tic-tac-toe />
-        <byot />
         <!-- <hacker-rank></hacker-rank> -->
         <!-- <leet-code></leet-code> -->
       </div>
@@ -31,6 +33,8 @@ import GitHub from './Projects/GitHub.vue';
 import SatPrep from './Projects/SatPrep.vue';
 import TicTacToe from './Projects/TicTacToe.vue';
 import ToDoList from './Projects/ToDoList.vue';
+import BingeToday from './Projects/BingeToday.vue';
+import NewsAI from './Projects/NewsAI.vue';
 
 export default {
   components: {
@@ -40,7 +44,9 @@ export default {
     GitHub,
     // HackerRank,
     Vchat,
-    Byot
-  }
+    Byot,
+    BingeToday,
+    NewsAI
+}
 };
 </script>

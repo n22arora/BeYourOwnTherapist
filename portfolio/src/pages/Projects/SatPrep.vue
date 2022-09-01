@@ -15,12 +15,13 @@
         SAT | Prep
       </h4>
       <p class="card-description">
-        It's an online doubt-solving platform for SAT Aspirants where you can e-mail your doubts to me, and I will reply to you with a solution and its explanation. I am also providing one-on-one sessions if you request one through e-mail.
+        My first website: It's an online doubt-solving platform for SAT Aspirants where you can e-mail your doubts to me, and I will reply to you with a solution and its explanation. I am also providing one-on-one sessions if you request one through e-mail.
       </p>
       <a
         href="https://www.thesatprep.com/"
-        target="_blank"
-      ><md-button class="md-round md-success">Check Out</md-button></a>
+        target="_blank"><md-button class="md-round md-success">Check Out</md-button></a>
+
+      <a href="https://github.com/n22arora/satpreptest" target="_blank"><md-button class="md-round md-success">GitHub Repo</md-button></a>
     </md-card-content>
   </md-card>
 </template>
