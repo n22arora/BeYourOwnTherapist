@@ -33,7 +33,7 @@
     props: {
       cardUserImage: {
         type: String,
-        default: require("@/assets/img/faces/Vchat.png")
+        default: require("@/assets/img/faces/bingetoday.png")
       }
     },
     data() {
