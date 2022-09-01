@@ -12,13 +12,13 @@
         <div class="md-layout-item md-small-size-100 md-size-33">
           <h5>Languages</h5>
           <p class="category">
-            C/C++, HTML, CSS, SQL
+            C/C++, SQL, Python, Ruby, Verilog
           </p>
         </div>
         <div class="md-layout-item md-small-size-100 md-size-66">
           <h5>Tools/Frameworks</h5>
           <p class="category">
-            Vue.js, TypeScript, Bootstrap 3/4, PostgreSQL, Jira, Jenkins, Postman, Tosca Commander, Git, Netlify, REST API, GitHub
+            VueJS, ReactJS, Alan AI, NodeJS, PeerJS, ExpressJS, WebRTC, Socket.io, Typescript
           </p>
         </div>
         <div class="md-layout-item md-small-size-100 md-size-33">
@@ -38,7 +38,7 @@
           <h5>Certifications</h5>
           <p class="category">
             <ul>
-              <li>CBSE Certificate of Merit for Physics - Awarded to top 0.1% of candidates passing that subject</li>
+              <!-- <li>CBSE Certificate of Merit for Physics - Awarded to top 0.1% of candidates passing that subject</li> -->
               <li>TypeScript Fundamentals - Coursera</li>
               <li>CSS Certification - HackerRank</li>
               <li>Game Development - Codecademy</li>
