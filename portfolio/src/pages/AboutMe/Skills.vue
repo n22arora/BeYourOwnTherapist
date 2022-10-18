@@ -12,13 +12,13 @@
         <div class="md-layout-item md-small-size-100 md-size-33">
           <h5>Languages</h5>
           <p class="category">
-            C/C++, SQL, Python, Ruby, Verilog
+            C/C++, Java, Python, SQL, JavaScript, Ruby, HTML/CSS, Verilog
           </p>
         </div>
         <div class="md-layout-item md-small-size-100 md-size-66">
           <h5>Tools/Frameworks</h5>
           <p class="category">
-            VueJS, ReactJS, Alan AI, NodeJS, PeerJS, ExpressJS, WebRTC, Socket.io, Typescript
+            ReactJS, AngularJS, VueJS, ExpressJS, NodeJS, Typescript, PeerJS, MongoDB, PostgreSQL, MySQL, DBeaver, Socket.io, WebRTC, Stream API, Rapid API, Jenkins, Postman, Jira, Bootstrap 3/4, Material-UI, Git, Alan AI
           </p>
         </div>
         <div class="md-layout-item md-small-size-100 md-size-33">

@@ -10,13 +10,14 @@
         <byot />
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
+        <cooking-book/>
         <binge-today/>
         <to-do-list />
-        <git-hub />
       </div>
       <div class="md-layout-item md-medium-size-100 md-size-33">
         <sat-prep />
         <tic-tac-toe />
+        <git-hub />
         <!-- <hacker-rank></hacker-rank> -->
         <!-- <leet-code></leet-code> -->
       </div>
@@ -35,6 +36,7 @@ import TicTacToe from './Projects/TicTacToe.vue';
 import ToDoList from './Projects/ToDoList.vue';
 import BingeToday from './Projects/BingeToday.vue';
 import NewsAI from './Projects/NewsAI.vue';
+import CookingBook from './Projects/CookingBook.vue';
 
 export default {
   components: {
@@ -46,7 +48,8 @@ export default {
     Vchat,
     Byot,
     BingeToday,
-    NewsAI
+    NewsAI,
+    CookingBook
 }
 };
 </script>
